@@ -1,10 +1,10 @@
 /*Exercise closely resembles 11 - consider introducing another concept here? */
 
-function getRandomInt()
+function getRandomInt(a,b)
 {
-	var randomNumber = Math.random();
+	var randomNumber = Math.floor(Math.random(a,b)*10);
 	return randomNumber;
 }
 
 
-console.log(getRandomInt());
+console.log(getRandomInt(0,11));
