@@ -40,7 +40,7 @@ function addAllFamilyLuckyNumbers(anArray){
 
     //estoy dentro del objeto person
 
-    for (let j = 0; j < 4; j++) { //entro dentro de person.lucky_numbers
+    for (let j = 0; j < 4; j++) {
       
       //console.log(anArray[i].lucky_numbers[j]);
       sumOfAllLuckyNumbers += anArray[i].lucky_numbers[j];
